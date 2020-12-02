@@ -1,0 +1,57 @@
+
+body {
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, white, white);
+}
+
+nav {
+    border-radius: 5px;
+    height: 70px;
+}
+
+li {
+    cursor: pointer;
+}
+
+#navbarList {
+    background: linear-gradient(to bottom, green, white);
+    color: white;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 70px;
+}
+
+#titleButton, #button1, #button2, #button3 {
+    text-align: center;
+    color: green;
+}
+
+
+#button1:hover, #button2:hover, #button3:hover{
+    border: solid 1px green;
+    transition: 0.4s;
+    border-bottom: solid 3px green;
+    border-radius: 6px;
+    box-shadow: 3px 5px green;
+}
+
+
+#button1, #button2, #button3, #titleButton{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
