@@ -1,8 +1,5 @@
 <?php
 
-if (!session_status() == PHP_SESSION_NONE) {
-    header('location: welcome.php');
-}
 
 ?>
 
@@ -20,26 +17,21 @@ if (!session_status() == PHP_SESSION_NONE) {
 <nav class="navbarContainer" id="navbar">
     <ul id="navbarList" class="nav justify-content-center">
         <li>
-            <h2 id="titleButton" onclick="goWelcome()">Kansrijker</h2>
+            <h2 id="titleButton">Flowerpower</h2>
         </li>
         <li>
-            <a id="createNewAccountButton" class="nav-link" onclick="goJongeren()">Jongeren toevoegen</a>
+            <a id="button1" class="nav-link">First button</a>
         </li>
         <li>
-            <a id="createNewAccountButton" class="nav-link" onclick="goActiviteiten()">Activiteiten toevoegen</a>
+            <a id="button2" class="nav-link">Second button</a>
         </li>
         <li>
-            <a id="loginButton" class="nav-link" href="logout.php">Uitloggen</a>
+            <a id="button3" class="nav-link">Third button</a>
         </li>
     </ul>
 </nav>
 
 <body id="body">
-
-<button id="activiteitKoppelButton" onclick="goActiviteitKoppelen()">Activiteit koppelen</button>
-<button id="deleteJongerenButton" type="reset" onclick="goDeleteJongeren()">Jongeren verwijderen</button>
-<button id="button" type="reset" onclick="goDeleteActiviteit()">Activiteit verwijderen</button>
-<button id="button" type="reset" onclick="goOverzicht()">Overzicht activiteiten en jongeren</button>
 
 
 <script type="text/javascript" src="../script.js"></script>
