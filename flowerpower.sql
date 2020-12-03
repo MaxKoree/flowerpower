@@ -22,7 +22,6 @@ CREATE TABLE winkel(
     PRIMARY KEY(winkelcode)
 );
 
-
 CREATE TABLE klant(
     klantcode VARCHAR(5),
     voorletters VARCHAR(20),
@@ -44,7 +43,6 @@ CREATE TABLE artikel(
     prijs VARCHAR(3),
     PRIMARY KEY(artikelcode)
 );
-
 
 CREATE TABLE factuur(
     factuurnummer VARCHAR(3),

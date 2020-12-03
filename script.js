@@ -1,1 +1,1 @@
-const goWelcome = () => window.location.replace("index.php");
+const goHome = () => window.location.replace("./php/index.php");
